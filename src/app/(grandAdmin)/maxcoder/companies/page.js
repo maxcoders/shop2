@@ -1,4 +1,3 @@
-const getFetch = function (d) {
-
-  return '';
-};
+export default function Orders() {
+  return <div>max</div>;
+}
