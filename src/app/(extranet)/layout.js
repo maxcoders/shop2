@@ -1,4 +1,4 @@
-import "../../s.css";
+import "@/s.css";
 import Nav from "./Nav";
 export const metadata = {
   title: "Seller center.js",
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <div className="fr pr wh-screen oh">
           <Nav />
           <main
-            className="p10 g10 fc"
+            className="p10 g10 fc f1"
             style={{ height: "100%", overflow: "auto" }}
           >
             {children}

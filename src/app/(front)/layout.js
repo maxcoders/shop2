@@ -1,4 +1,4 @@
-import "../../s.css";
+import "@/s.css";
 import Footer from "./Footer";
 import Header from "./Header";
 export const metadata = {
