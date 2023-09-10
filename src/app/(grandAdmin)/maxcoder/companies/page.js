@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Empty from "./Empty";
 import List from "./List";
 import set from "@/api/set";
@@ -14,4 +15,8 @@ export default async function F() {
   if (companies)
     return <div>{companies && <List companies={companies} />}</div>;
   if (!companies) return <div>{companies && <Empty />}</div>;
+=======
+export default function Orders() {
+  return <div>max</div>;
+>>>>>>> 51a4457f513d2f4d76ec3becab1488aa85f4beda
 }
