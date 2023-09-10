@@ -12,7 +12,6 @@ export default function Form({ product }) {
       body: formData,
     });
   };
-  return "";
   return (
     <form className="fc f1 g1 p1" onSubmit={(e) => form(e)}>
       <div className="n1">{product?.ky ? "Edit Product" : "Add product"}</div>
